@@ -1,0 +1,27 @@
+Thu Apr  6 08:58:56 UTC 2023
+Rychard2:*:1000:
+Rychard2:*:1000:
+Rychard2:*:1000:
+echo "done"
+Some tests:
+
+- Compile hello.c with gcc (or tcc):
+
+  gcc hello.c -o hello
+  ./hello
+
+- Run QuickJS:
+
+  qjs hello.js
+
+- Run python:
+
+  python3 bench.py
+   0 date >> /var/RYCHARD.txt
+   1 cat /etc/group | tail -3 | sed 's/user/Rychard/' >> /var/RYCHARD.txt 
+   2 vi /var/RYCHARD.txt 
+   3 mkdir -p /root/newfolder/test
+   4 mv /var/RYCHARD.txt /root/newfolder/test/RYCHARD2.txt
+   5 cat readme.txt >> /root/newfolder/test/RYCHARD2.txt 
+   6 cat /root/newfolder/test/RYCHARD2.txt 
+   7 history >> /root/newfolder/test/RYCHARD2.txt 
