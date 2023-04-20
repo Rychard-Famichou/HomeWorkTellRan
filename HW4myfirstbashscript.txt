@@ -1,0 +1,10 @@
+   0 nano myfirstbashscript.sh
+   1 chmod 744 myfirstbashscript.sh
+   2 ./myfirstbashscript.sh
+   3 history >> myfirstbashscript.sh
+
+#!/bin/bash
+USER=Rychard
+date
+echo "Hello $USER"
+pwd
