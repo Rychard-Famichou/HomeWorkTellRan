@@ -1,0 +1,11 @@
+1 mkdir -p /opt/060323_e/Rychard
+2 cd /opt/060323_e/Rychard
+3 nano taskRychard.sh
+   #!/bin/bash
+   DATA=$(date +'%d.%m.%y')
+   for RUN in {1..10}
+   do
+   touch $RUN.$DATA.txt
+   done
+4 crontab -e
+   */15 * * * * /opt/060323_e/Rychard/taskRychard.sh
